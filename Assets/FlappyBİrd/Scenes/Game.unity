@@ -227,7 +227,7 @@ GameObject:
   - component: {fileID: 300759508}
   m_Layer: 0
   m_Name: Out Down
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -575,6 +575,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpPower: 200
+  maxFallPower: 10
 --- !u!58 &776845742
 CircleCollider2D:
   m_ObjectHideFlags: 0
